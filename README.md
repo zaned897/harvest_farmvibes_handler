@@ -14,8 +14,15 @@ Este repositorio contiene scripts y notebooks para ejecutar flujos de trabajo us
 
 ## Requisitos
 
-Instalar las dependencias del proyecto usando:
+Python 3.11 es necesario para ejecutar los scripts y notebooks (visitar [python.org](https://www.python.org/downloads/) para descargar la última versión). Ya que necesita usar gdal versionado en src/resources/gdal, se recomienda instalar las dependencias del proyecto en un entorno virtual.
+
 
 ```bash
+pipenv shell
+
+```
+Despues instalar las dependencias del proyecto.
+```bash
 pip install -r requirements.txt
+pip install .src/resources/GDAL-3.4.3-cp311-cp311-win_amd64.whl
 
